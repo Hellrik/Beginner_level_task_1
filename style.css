@@ -1,0 +1,197 @@
+/** * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/) * http://cssreset.com */html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {     margin:0;     padding:0;     border:0;     font-size:100%;     font:inherit;     vertical-align:baseline; }/* HTML5 display-role reset for older browsers */article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {     display:block; }body {     line-height:1; }ol, ul {     list-style:none; }blockquote, q {     quotes:none; }blockquote:before, blockquote:after,q:before, q:after {     content:'';     content:none; }table {     border-collapse:collapse;     border-spacing:0; }
+
+@font-face { font-family: 'Yanone Kaffeesatz'; src: url('fonts/yanonekaffeesatz-webfont.eot'); src: url('fonts/yanonekaffeesatz-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/yanonekaffeesatz-webfont.woff') format('woff'), url('fonts/yanonekaffeesatz-webfont.ttf') format('truetype'), url('fonts/yanonekaffeesatz-webfont.svg#yanone_kaffeesatzregular') format('svg'); font-weight: normal; font-style: normal; }
+
+* { margin:0 auto; padding:0; border:0; }
+
+.clear { margin:0; padding:0; clear:both; line-height:0; }
+
+#content { background-image:url("images/background.png"); background-repeat:repeat; font-family:Arial, Helvetica, sans-serif; font-size:14px; text-align:left; color:#d9e2ef; }
+
+/*header (begin)*/
+#header { margin:0 auto -15px auto; width:1020px; overflow:hidden; }
+
+/*social-logos (begin)*/
+#social-logos { float:right; margin:11px 44px 0 0; }
+
+#social-logos  li { list-style:none; display:block; width:31px; }
+
+#social-logos a { display:block; height:32px; width:31px; }
+
+#social-logos li:hover { opacity: 0.8; }
+
+#twitter { float:left; width:31px; background:url("images/social.png") 0 0; }
+
+#deviantart { float:left; width:31px; background:url("images/social.png") -32px 0; margin:0 6px; }
+
+#facebook { float:left; width:31px; background:url("images/social.png") -64px 0; }
+/*social-logos (end)*/
+
+#logo { float:left; margin:0 103px 0 41px; }
+
+#post { font-family:'Yanone Kaffeesatz', Arial, Helvetica, sans-serif; font-size:24px; margin-top:37px; float:left; width:690px; line-height:29px; }
+
+#post p { margin-bottom:-4px; }
+
+#arrow-prev { margin-right:-2px; }
+
+/*top-navigation (begin)*/
+#top-nav { height:73px; float:left; font-size:18px; font-family:'Yanone Kaffeesatz', Arial, Helvetica, sans-serif; margin:38px 0 0 41px; position:relative; }
+
+#top-nav li { list-style:none; float:left; height:73px; text-align:center; line-height:60px; vertical-align:middle; }
+
+#top-nav a { text-decoration:none; display:inline-block; padding-right:12px; margin-right:-2px; }
+
+#top-nav a span { height:73px; text-decoration:none; color:#d9e2ef; display:inline-block; min-width:45px; padding-left:6px; }
+
+#top-nav .selected  a { background-image:url("images/button_topnav.png"); background-repeat:no-repeat; background-position:right -68px; margin-right:9px;}
+
+#top-nav .selected a span { background-image:url("images/button_topnav.png"); background-repeat:no-repeat; color:#7f6715; padding-left:9px; }
+
+#top-nav a:hover { background-image:url("images/button_topnav.png"); background-repeat:no-repeat; background-position:right -68px; display:inline-block; color:#7f6715; }
+
+#top-nav a:hover span { background-image:url("images/button_topnav.png"); background-repeat:no-repeat; color:#7f6715; display:inline-block; }
+/*top-navigation (end)*/
+
+#hire-me { height:73px; float:right; font-size:18px; font-family:'Yanone Kaffeesatz', Arial, Helvetica, sans-serif; margin:38px 41px 0 0px; text-decoration:none; line-height:65px; vertical-align:middle; text-align:center; }
+#hire-me:hover { opacity: 0.8; }
+#hire-me a  { background-image:url("images/hire_button.png"); background-repeat:no-repeat; background-position:right -68px; display:inline-block; text-decoration:none; padding-right:10px; }
+
+#hire-me a span { background-image:url("images/hire_button.png"); background-repeat:no-repeat; display:inline-block; height:73px; text-decoration:none; color:#3c590b; padding:0px 4px 0px 10px; min-width:59px; }
+
+#header-bot { background-image:url("images/top_saw.png"); height:26px; clear:both; position:relative; }
+/*header (end)*/
+
+/*main-content (begin)*/
+#main-content-background { background-color:white; padding-top:12px; }
+
+#main-content { width:1020px; margin:0 auto; }
+
+/*categories (begin)*/
+#categories { float:left; font-size:12px; color:#282d34; height:28px; width:404px; margin-left:41px; letter-spacing:0px; }
+
+#categories li { float:left; height:28px; text-align:center; line-height:28px; vertical-align:middle; margin-right:17px; }
+
+.category { margin-right:12px !important; line-height:30px !important; }
+
+.category a:hover { background-image:url("images/black_button.png"); color:white; }
+
+.category a { background-image:url("images/striped_button.png"); background-repeat:no-repeat; background-position:right -28px; text-decoration:none; display:inline-block; padding-right:10px; }
+
+.category a span { background-image:url("images/striped_button.png"); background-repeat:no-repeat; text-decoration:none; color:#282d34; ; display:inline-block; padding:0 1px 0 13px; min-width:65px; }
+
+#selected-category a, .category a:hover { background-image:url("images/black_button.png"); background-repeat:no-repeat; background-position:right -28px; }
+
+#selected-category a span, .category a:hover span { background-image:url("images/black_button.png"); background-repeat:no-repeat; color:white; }
+/*categories (end)*/
+
+/*search (begin)*/
+#search { width:295px; height:26px; float:right; margin:-1px 42px 2px 0; }
+
+#search-text { background-color:#f0ede5; border-radius:10px 0 0 10px; border-top:1px solid #cccac3; border-left:1px solid #cccac3; line-height:26px; color:#958e7b; font-size:12px; width:238px; height:25px; float:left; padding-left:15px; }
+
+#search-button { background-image:url("images/loop.png"); background-repeat:no-repeat; background-position:center; width:40px; height:26px; border-top:1px solid #cccac3; border-right:1px solid #cccac3; border-radius:0 10px 10px 0; float:left; }
+
+#search-button:hover { cursor:pointer; }
+
+/*search (end)*//*lorem-boxes (begin)*/#boxes { clear:both; padding-top:25px; }
+
+#top-boxes, #bot-boxes { float:left; margin-bottom:11px; }
+
+#bot-boxes { margin-bottom:12px; }
+
+.lorem-box, .lorem-box-left, .lorem-box-right { width:306px; min-height:381px; float:left; }
+
+.lorem-box-left { margin-left:37px; }
+
+.lorem-box { margin:0 5px 0 14px; }
+
+.lorem-box-right { margin-right:46px; }
+
+.top-shadow, .left-shadow, .right-shadow, .bot-shadow { float:left; }
+
+.top-shadow { background-image:url("images/shadow_top.png"); background-repeat:no-repeat; height:6px; width:306px; }
+
+.side-shadows { background-image:url("images/shadow_sides.png"); background-repeat:repeat-y; width:303px; padding-left:3px; margin-top:6px; }
+
+.bot-shadow { background-image:url("images/shadow_bottom.png"); background-repeat:no-repeat; width:306px; height:6px; }
+
+.inner-boxes { float:left; width:300px; margin-top:-4px; }
+
+.inner-top-box { height:201px; width:300px; background-image:url("images/striped_stripe.png"); background-repeat:no-repeat; padding-top:10px; }
+
+.box-border { background-image:url("images/box_border.png"); height:3px; width:300px; margin-bottom:-1px; }
+
+.inner-bot-box { min-height:146px; width:276px; background-image:url("images/striped_stripe.png"); background-repeat:no-repeat; background-color:white; padding:18px 13px 0 11px; position:relative; color:#7a7e83; line-height:21px; }
+
+.inner-bot-box h4 { font-size:20px; font-family:'Yanone Kaffeesatz', Arial, Helvetica, sans-serif; color:#282d34; margin-bottom:12px; text-shadow:1px 1px #939699; }
+
+.inner-bot-box p { margin-left:1px; line-height:21px; }
+
+.inner-bot-box h6 { margin:28px 0 2px 3px; clear:both; font-size:10px; color:#b6b6b6; position:relative; }
+
+.corner { background-image:url("images/striped_corner.png"); background-repeat:no-repeat; color:#282d34; height:31px; width:31px; position:absolute; bottom:-4px; right:0px; }
+
+.corner p { margin:11px 0 0 17px; }
+
+/*main-content (end)*/#bottom-border { background-image:url("images/bot_saw.png"); background-repeat:repeat-x; height:51px; position:relative; clear:both; margin-bottom:-10px; }
+
+/*hire-box (begin)*/#hire-box { width:1020px; margin:0 auto; background-image:url("images/footer_divider.png"); background-repeat:repeat-y; background-position:center; padding-bottom:32px; }
+
+#freelancer {   width:440px; float:left; padding:36px 30px 0 42px; }
+
+#freelancer h1 { font-size:48px; font-family:'Yanone Kaffeesatz', Arial, Helvetica, sans-serif; color:#b0c4e1; text-shadow:2px 1px #060708; margin-bottom:38px; line-height:50px; vertical-align:middle; }
+
+#freelancer h1 span { font-size:14px; font-family:Arial, Helvetica, sans-serif; color:#b0c4e1; font-style:italic; vertical-align:middle; text-shadow:1px 1px #060708; margin-left:22px; }
+
+#freelancer h2 { font-size:20px; font-family:'Yanone Kaffeesatz', Arial, Helvetica, sans-serif; text-shadow:2px 2px #060708; color:#b0c4e1; }
+
+.history { line-height:24px; margin:13px 0 24px 0; font-size:14px; }
+
+.history-bot { margin-bottom:12px; }
+
+.rate { text-transform:uppercase; height:40px; background-image:url("images/footer_divider_horizontal.png"); background-repeat:repeat-x; line-height:40px; vertical-align:middle; }
+
+#first-rate { background-image:none; margin-top:6px; }
+
+.rate p { float:left; margin-left:9px; }
+
+.rate ul { float:right; margin:14px 16px 0 0; }
+
+.rate li { list-style:none; float:left; background-image:url("images/star_black.png"); height:12px; width:13px; }
+
+.selected-star { background-image:url("images/star_light.png")!important; height:12px; width:13px; }
+
+#send-box { width:440px; float:left; padding:128px 40px 0 28px; }
+
+#send-box p { line-height:24px; margin-bottom:28px; }
+
+#name-error, #mail-error { background-image:url("images/error.png"); overflow: hidden; background-repeat:no-repeat; background-position:top right; height:30px; width:199px; float:right; margin-right:11px; }
+
+.thin-input, #comment-input { background-color:#282d34; border-radius:5px; border-bottom:1px dotted #323841; color:white; font-size:12px; padding-left:12px; float:left; }
+
+.thin-input { background-image:url("images/form_thin.png"); width:198px; height:28px; margin-bottom:20px; color:white; font-size:12px; line-height:30px; padding-top:2px; }
+
+.error-text { font-size:12px; color:white; margin:4px 0 0 37px; }
+
+#input-box { height: 82px; margin-bottom: 20px;}
+
+#comment-input { background-image:url("images/form_wide.png"); width:425px; height:123px; margin-bottom:24px; padding-top:7px; resize:none; }
+
+#send-button { float:right; background-image:url("images/send_button.png"); font-size:12px; min-width:80px; height:31px; border-radius:3px; border:1px solid #2b323b; color:white; padding-right:3px; }
+
+*:first-child+html #send-button {padding-right:14px;}
+
+#send-button:hover { cursor:pointer; opacity:0.8; }
+
+#footer-background { height:70px; background-image:url("images/footer_background.png"); background-repeat:repeat-x; }
+
+#footer { width:1020px; margin:0 auto; line-height:56px; vertical-align:middle; }
+
+#footer p { float:left; margin-left:40px; }
+
+#to-top { font-size:11px; font-style:italic; float:right; margin-right:47px; margin-top:18px; line-height:11px; }
+
+#to-top p { margin:7px 10px 0 0; }
+
+/*hire-box (end)*/
